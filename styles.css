@@ -1,0 +1,93 @@
+header, nav, main, section, article, figure, figcaption, aside, address, footer {
+	display: block;
+}
+body{
+	background-color: #dea8b5;
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 1.5;
+	color: #542c1b;
+}
+#wrapper{
+	width: 1000px;
+	background-color: #fdfdfd;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+header{
+	height: 150px;
+	text-align: left;
+	background-color: #141a1a;
+	margin: 0 auto;
+	width: auto;
+	background-image: url(bowl.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+h1{
+	color: #FFF;
+	padding-top: 50px;
+	padding-left: 32px;
+}
+nav{
+	float: left;
+	width: 150px;
+	color: #141a1a;
+	border-color: #CCC;
+	list-style-type: none;
+	margin-right: 20px;
+	margin-top: 10px;
+	padding: 16px;
+}
+nav li{
+	list-style-type: none;
+	background-color: #E0E5DE;
+	border: 3px solid #CCCCCC;
+	margin-bottom: 15px;
+}
+nav a{
+	display: block;
+	padding: 16px;
+	text-align: center;
+	color:#141a1a;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover{
+	background-color: #F28095;
+}
+.active-page{
+	background-color: #DEA8B5;
+}
+main{
+	background-color: #FDFDFD;
+	text-align:left;
+	margin-left: 170px;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+.bakery{
+	font-style: italic;
+}
+#floatleft{
+	float: left;
+	margin-right: 48px;
+	margin-bottom: 10px;
+}
+main ul{
+	list-style-position: inside;
+}
+.clear{
+	clear: left;
+}
+footer{
+	background-color: #afaeb4;
+	color: #542C1B;
+	text-align: center;
+	padding: 10px;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+
+
